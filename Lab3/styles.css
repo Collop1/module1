@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    align-items: stretch;
+}
+
+.column {
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;    
+}
+
+.column > img {
+    height: 400px;
+    margin: 20px;
+}
+
+.column > button {
+    background-color: #4CAF50;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+/*Activates when user clicks left or right column button*/
+.changed-color {
+    background-color: #5500dd;
+}
